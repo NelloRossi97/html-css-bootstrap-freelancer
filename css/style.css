@@ -79,7 +79,10 @@ h3{
     text-decoration: none;
     font-weight: bold;
 }
-
+#contact-me form button{
+    background-color: var(--aqua);
+    border: 1px solid var(--white);
+}
 footer{
     font-weight: bold;
 }
@@ -96,4 +99,11 @@ footer{
 
 .foot-icons i{
     transform: translate(10%, 10%);
+}
+
+::placeholder{
+    color: var(--dark-gray);
+}
+#contact-me .star-divider{
+    color: var(--dark-gray);
 }
