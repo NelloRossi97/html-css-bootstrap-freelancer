@@ -52,3 +52,9 @@ h2{
 #hero p{
     font-size: 1.7rem;
 }
+
+#portfolio .star-divider{
+    color: var(--dark-gray);
+}
+
+
