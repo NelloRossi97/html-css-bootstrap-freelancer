@@ -42,7 +42,7 @@ h3{
 .star-divider i{
     font-size: 2rem;
 }
-#portfolio .star-divider{
+#portfolio .star-divider, #contact-me .star-divider{
     color: var(--dark-gray);
 }
 #about button{
@@ -74,8 +74,5 @@ h3{
     transform: translate(10%, 10%);
 }
 ::placeholder{
-    color: var(--dark-gray);
-}
-#contact-me .star-divider{
     color: var(--dark-gray);
 }
