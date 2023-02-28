@@ -19,6 +19,21 @@ header, #copyright{
     background-color: var(--white);
     color: var(--black);
 }
+.plus-hover{
+    left: 11px;
+    right: 11px;
+    top: 0;
+    bottom: 0;
+    font-size: 6rem;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: var(--aqua);
+}
+.plus-hover:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
 #adresses{
     background-color: var(--light-gray);
 }
