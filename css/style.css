@@ -60,6 +60,10 @@ h3{
 #contact-me form button{
     background-color: var(--aqua);
     border: 1px solid var(--white);
+    transition: 0.5s;
+}
+#contact-me form button:hover{
+    background-color: #127a66;
 }
 .foot-icons a{
     font-size: 1rem;
