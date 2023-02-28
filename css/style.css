@@ -6,33 +6,26 @@
 --light-gray: #3A546D;
 --black: #333333;
 }
-
 body{
     color: var(--white);
 }
-
 header, #copyright{
     background-color: var(--dark-gray);
 }
-
 #hero, #about{
     background-color: var(--aqua);
 }
-
 #portfolio, #contact-me{
     background-color: var(--white);
     color: var(--black);
 }
-
 #adresses{
     background-color: var(--light-gray);
 }
-
 #hero img{
     width: 300px;
     height: 300px;
 }
-
 h2{
     font-size: 4rem;
     font-weight: bold;
@@ -40,24 +33,18 @@ h2{
 h3{
     font-size: 1.7rem;
 }
-
 .line-star-divider{
     width: 15%;
     border: 2px solid;
     border-radius: 50px;
     height: 0;
 }
-.star-divider{
-    display: flex;
-}
 .star-divider i{
     font-size: 2rem;
 }
-
 #portfolio .star-divider{
     color: var(--dark-gray);
 }
-
 #about button{
     border: 1px solid var(--white);
     background-color: transparent;
@@ -65,15 +52,6 @@ h3{
     padding: 10px;
     border-radius: 5px;
 }
-
-#about .col-12{
-    margin: 0 auto;
-}
-
-.container75{
-    margin: 0 auto;
-}
-
 #adresses p a{
     color: var(--aqua);
     text-decoration: none;
@@ -83,10 +61,6 @@ h3{
     background-color: var(--aqua);
     border: 1px solid var(--white);
 }
-footer{
-    font-weight: bold;
-}
-
 .foot-icons a{
     font-size: 1rem;
     text-decoration: none;
@@ -96,11 +70,9 @@ footer{
     width: 50px;
     height: 50px;
 }
-
 .foot-icons i{
     transform: translate(10%, 10%);
 }
-
 ::placeholder{
     color: var(--dark-gray);
 }
