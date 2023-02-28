@@ -65,6 +65,7 @@ h3{
     background-color: var(--aqua);
     border: 1px solid var(--white);
     transition: 0.5s;
+    border-radius: 5px;
 }
 #contact-me form button:hover{
     background-color: #127a66;
